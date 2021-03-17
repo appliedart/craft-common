@@ -1,5 +1,5 @@
 {
-	"name": "appliedart/aat-bc-converter",
+	"name": "appliedart/craft-common",
 	"description": "Craft plugin for transforming exported BC Web App data.",
 	"license": "MIT",
 	"authors": [
