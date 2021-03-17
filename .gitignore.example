@@ -1,0 +1,22 @@
+/.env
+/.idea
+/vendor
+/node_modules
+.DS_Store
+*.sql
+*.gz
+*.tar
+*.zip
+*.mov
+*.mpg
+*.mp4
+*.webm
+
+# ASSETS (added by fortrabbit/craft-copy)
+/web/assets/*
+
+/web/cpresources/*
+/certificates
+/conf
+/bin
+/logs

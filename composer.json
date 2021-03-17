@@ -19,5 +19,13 @@
         "psr-4": {
             "AppliedArt\\CraftCommon\\": "src/"
         }
+    },
+    "scripts": {
+    	"post-install-cmd": [
+			"@php -r \"file_exists('.gitignore') || copy('.gitignore.example', '.gitignore');\""
+    	],
+    	"post-update-cmd": [
+			"@php -r \"file_exists('.gitignore') || copy('.gitignore.example', '.gitignore');\""
+    	]
     }
 }
