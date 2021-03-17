@@ -1,0 +1,27 @@
+{
+	"name": "appliedart/aat-bc-converter",
+	"description": "Craft plugin for transforming exported BC Web App data.",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Applied Art",
+			"homepage": "https://appliedart.com"
+		}
+	],
+	"support": {
+		"email": "support@appliedart.com",
+		"issues": "https://github.com/appliedart/craft-common/issues?state=open",
+		"source": "https://github.com/appliedart/craft-common",
+		"docs": "https://github.com/appliedart/craft-common/blob/master/README.md"
+	},
+	"autoload": {
+		"psr-4": {
+			"appliedart\\craft-common\\": "src/"
+		}
+	},
+	"extra": {
+		"handle": "craft-common",
+		"name": "Applied Art common craftcms setup.",
+		"documentationUrl": "https://github.com/appliedart/craft-common/blob/master/README.md",
+	}
+}
