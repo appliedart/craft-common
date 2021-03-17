@@ -1,6 +1,7 @@
 {
 	"name": "appliedart/craft-common",
 	"description": "Applied Art common craftcms setup.",
+	"type": "library",
 	"license": "MIT",
 	"authors": [
 		{
